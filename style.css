@@ -1,0 +1,32 @@
+html{
+	height:calc(100% - 20px);
+	margin:5px;
+	background-color: rgba(0,0,0,0.2);
+	color:rgba(205,0,0,1);
+	font-family:arial;
+}
+body:after{
+  content:'unitsix';
+  bottom:15px;
+  right:20px;
+  position: absolute;
+  font-size:10px;
+}
+.info{
+	text-align:center;
+	width:100%;
+	position:fixed;
+	top:0;
+	left:0;
+}
+.info h2{
+	padding:10px;
+	margin-top:20vh;
+	margin-left:auto;
+	margin-right:auto;
+	width:50%;
+  font-weight: 500;
+}
+html, .info h2{
+	border: 5px solid rgba(205,0,0,1);
+}
