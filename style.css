@@ -1,7 +1,7 @@
 html{
 	height:calc(100% - 20px);
 	margin:5px;
-	background-color: rgba(0,0,0,0.2);
+	background-color:rgba(0,0,0,0.2);
 	color:rgba(205,0,0,1);
 	font-family:arial;
 }
@@ -9,7 +9,7 @@ body:after{
 	content:'unitsix';
 	bottom:15px;
 	right:20px;
-	position: absolute;
+	position:absolute;
 	font-size:10px;
 }
 .info{
@@ -23,8 +23,8 @@ body:after{
 	padding:10px;
 	margin:20vh auto 0 auto;
 	width:50%;
-	font-weight: 500;
+	font-weight:500;
 }
 html, .info h2{
-	border: 5px solid rgba(205,0,0,1);
+	border:5px solid rgba(205,0,0,1);
 }
