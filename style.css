@@ -5,6 +5,9 @@ html{
 	color:rgba(225,225,225,1);
 	font-family:arial;
 }
+body{
+	background-color:transparent;
+}
 body:after{
 	content:'unitsix';
 	bottom:15px;
